@@ -1,0 +1,83 @@
+.areas-practica {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.titulo h4 {
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 5px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.titulo h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.titulo .resaltado {
+  color: #a0cf5e; /* verde principal */
+}
+
+.titulo p {
+  font-size: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #4a4a4a;
+  line-height: 1.6;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 40px auto 0 auto;
+}
+
+.card-servicio {
+  background: #f9f9f9;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: left;
+  border: 1px solid transparent;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-servicio:hover {
+  background-color: #a0cf5e;  /* verde principal al hacer hover */
+  border-color: #a0cf5e;      /* borde también verde */
+  transform: translateY(-6px);
+}
+
+.card-servicio .icono {
+  font-size: 20px;
+  color: #a0cf5e;
+  margin-bottom: 8px;
+}
+
+.card-servicio .icono img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.card-servicio h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #1f1f1f;
+}
+
+.card-servicio p {
+  font-size: 13px;
+  color: #333;
+  line-height: 1.4;
+}

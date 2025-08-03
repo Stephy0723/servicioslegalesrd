@@ -1,0 +1,93 @@
+/* Estilo del topbar superior */
+.topbar {
+  background-color: #000000; /* Negro verdadero */
+  color: #ffffff;
+  padding: 16px 0;
+  font-size: 15px;
+}
+
+.topbar-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.topbar-left,
+.topbar-right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+/* Íconos */
+.icon {
+  font-size: 20px;
+  margin-right: 6px;
+}
+
+/* Texto general */
+.topbar a,
+.topbar span {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+/* Teléfono en blanco */
+.topbar .phone-number {
+  color: #ffffff;
+}
+
+/* Separador */
+.separator {
+  color: #666666;
+  font-weight: 300;
+  margin: 0 10px;
+}
+
+/* Redes sociales */
+.topbar-right a {
+  color: #ffffff;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.topbar-right a:hover {
+  color: #8BC53F; /* Verde del logo */
+}
+
+/* Botón */
+.btn-cita {
+  background-color: #8BC53F; /* Verde del logo */
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  cursor: pointer;
+  margin-left: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cita:hover {
+  background-color: #6ea52d; /* Verde más oscuro */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .topbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .topbar-right {
+    justify-content: flex-start;
+  }
+}

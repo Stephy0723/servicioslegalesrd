@@ -1,0 +1,54 @@
+.contacto-mapa {
+  position: relative;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.overlay-info {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgba(22, 33, 52, 0.9); /* azul oscuro semitransparente */
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 20px;
+  z-index: 2;
+  flex-wrap: wrap;
+}
+
+.overlay-info .col {
+  flex: 1;
+  max-width: 500px;
+  text-align: center;
+  margin: 10px;
+}
+
+.overlay-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.overlay-info p {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.overlay-info .telefono {
+  color: #a0cf5e;
+  font-weight: bold;
+}
+
+.icono i {
+  font-size: 45px;
+  color: #a0cf5e; /* verde */
+  margin-bottom: 10px;
+}
+
+.mapa iframe {
+  display: block;
+  width: 100%;
+  height: 500px;
+  z-index: 1;
+}

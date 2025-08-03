@@ -1,0 +1,46 @@
+.banner-servicio {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* oscurece la imagen */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.banner-overlay h1 {
+  font-size: 56px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.breadcrumb {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #f0f0f0;
+}
+
+.servicio-content {
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.servicio-content h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}

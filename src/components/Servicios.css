@@ -1,0 +1,66 @@
+.servicios-page {
+  background-color: #fff;
+  padding: 40px 20px;
+}
+
+.servicios-header {
+  text-align: center;
+  padding-bottom: 30px;
+  background: url('../assets/fondo3.jpg') no-repeat center;
+  background-size: cover;
+  color: white;
+  padding: 80px 20px;
+}
+
+.servicios-header h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.servicios-header p {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.servicios-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.servicio-card {
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.servicio-card:hover {
+  transform: translateY(-5px);
+}
+
+.servicio-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.servicio-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 15px 0 10px;
+  color: #333;
+}
+
+.servicio-card .linea {
+  display: block;
+  height: 2px;
+  width: 40px;
+  background-color: #c89f61;
+  margin: 0 auto 20px;
+}

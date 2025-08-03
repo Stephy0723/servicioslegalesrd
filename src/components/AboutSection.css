@@ -1,0 +1,113 @@
+.about-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f5f7;
+  padding: 50px 10%;
+  font-family: 'Segoe UI', sans-serif;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.small-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #1a1a1a;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.company-name {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.company-name .highlight-orange {
+  color: #a0cf5e;
+  letter-spacing: 2px;
+  font-size: 38px;
+}
+
+.about-left p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+  color: #2c3e50;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 40px 0 20px;
+  color: #1a1a1a;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px 40px;
+  list-style: square;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 900px;
+  color: #2c3e50;
+  font-size: 15.5px;
+  text-align: left;
+}
+
+.btn-more {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 12px 24px;
+  background-color: #1a1a1a;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-more:hover {
+  background-color: #a0cf5e;
+  color: #1a1a1a;
+}
+
+/* Sección derecha: texto introductorio e imágenes */
+.about-right {
+  margin-top: 40px;
+  text-align: center;
+  max-width: 800px;
+}
+
+.intro-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.about-img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}

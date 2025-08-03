@@ -1,0 +1,108 @@
+.equipo-banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 280px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.equipo-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+}
+
+.banner-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Georgia', serif;
+  margin-bottom: 10px;
+}
+
+.breadcrumb {
+  font-size: 16px;
+  color: #fff; /* Color blanco base */
+}
+
+.breadcrumb span {
+  color: #fff; /* Fuerza blanco para todos los spans */
+}
+
+.breadcrumb .flecha {
+  margin: 0 8px;
+  color: #fff; /* Flecha blanca */
+}
+
+.breadcrumb .actual {
+  color: #fff; /* Elimina el dorado aquí también */
+  text-transform: lowercase;
+}
+
+.titulo-secundario {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 28px;
+  color: #222;
+}
+
+/* Sección de tarjetas */
+.equipo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.card-equipo {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card-equipo:hover {
+  transform: translateY(-5px);
+}
+
+.card-equipo img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card-equipo h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #1a1a1a;
+}
+
+.card-equipo .puesto {
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.card-equipo .descripcion {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.5;
+}
