@@ -13,7 +13,7 @@ const Impuestos = () => {
       <div
         className="banner-servicio"
         style={{
-          backgroundImage: "url('/assets/banner-servicio.jpg')",
+          backgroundImage: "url('/demos/steliant-legal/banner-practica.jpg')",
         }}
       >
         <div className="banner-overlay">
@@ -41,3 +41,4 @@ const Impuestos = () => {
 };
 
 export default Impuestos;
+

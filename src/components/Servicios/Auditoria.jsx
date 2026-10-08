@@ -8,7 +8,7 @@ const Impuestos = () => {
     <>
       <Header />
       <Menu />
-      <div className="banner-servicio" style={{ backgroundImage: "url('/assets/banner-servicio.jpg')" }}>
+      <div className="banner-servicio" style={{ backgroundImage: "url('/demos/steliant-legal/banner-practica.jpg')" }}>
         <div className="banner-overlay">
           <h1>IMPUESTOS</h1>
           <p className="breadcrumb">Home → práctica → Impuestos</p>
@@ -25,3 +25,4 @@ const Impuestos = () => {
 };
 
 export default Impuestos;
+

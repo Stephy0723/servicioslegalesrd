@@ -98,3 +98,4 @@ const AreasPractica = () => {
 };
 
 export default AreasPractica;
+

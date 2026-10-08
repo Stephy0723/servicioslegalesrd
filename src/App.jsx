@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Header from './components/Header';
 import Menu from './components/Menu';
@@ -109,3 +109,4 @@ function App() {
 }
 
 export default App;
+

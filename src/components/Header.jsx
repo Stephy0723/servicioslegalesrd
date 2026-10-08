@@ -19,10 +19,10 @@ const Header = () => {
             <span>Av. George Washington, 208-D Santo Domingo 10104</span>
             <span className="separator">|</span>
             <FaPhone className="icon" />
-            <a href="tel:+18498757755">+1 849-875-7755</a>
+            <a href="tel:0000000000">+1 849-875-7755</a>
           </div>
           <div className="topbar-right">
-            <a href="https://wa.me/18498757755" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
+            <a href="https://wa.me/0000000000" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
             <span className="separator">|</span>
             <a href="#"><FaLinkedin /></a>
             <span className="separator">|</span>
@@ -37,3 +37,4 @@ const Header = () => {
 };
 
 export default Header;
+

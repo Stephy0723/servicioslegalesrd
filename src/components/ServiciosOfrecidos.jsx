@@ -43,7 +43,7 @@ const ServiciosOfrecidos = () => {
         ))}
 
         <blockquote className="firma-frase">
-          <span className="marca">P & W</span> es una firma de abogados que proporciona asesoramiento legal experto,
+          <span className="marca">Steliant Legal</span> es una firma de abogados que proporciona asesoramiento legal experto,
           representación en procedimientos legales y gestión del cumplimiento de las leyes en diversas áreas,
           contribuyendo así a la justicia y al funcionamiento efectivo del sistema legal en favor de los intereses y valores
           de nuestros clientes.
@@ -54,3 +54,4 @@ const ServiciosOfrecidos = () => {
 };
 
 export default ServiciosOfrecidos;
+

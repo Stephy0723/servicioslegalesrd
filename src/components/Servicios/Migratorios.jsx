@@ -12,3 +12,4 @@ const Migratorios = () => (
 );
 
 export default Migratorios;
+

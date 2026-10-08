@@ -12,3 +12,4 @@ const Finanzas = () => (
 );
 
 export default Finanzas;
+

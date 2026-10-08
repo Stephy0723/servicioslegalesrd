@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Menu.css';
-import logo from '../assets/logo.jpg'; // Asegúrate que la ruta del logo es correcta
+const logo = '/demos/steliant-legal/steliant-logo.png'; // Asegúrate que la ruta del logo es correcta
 
 const Menu = () => {
   const [showMenu, setShowMenu] = useState(true);
@@ -54,3 +54,4 @@ const Menu = () => {
 };
 
 export default Menu;
+
